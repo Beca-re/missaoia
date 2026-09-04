@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Futuro da Fotografia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <section id="inicio" class="tela ativa">
+            <div class="icone">📸</div>
+
+            <h1>O Futuro da Fotografia</h1>
+
+            <p>
+                Imagine que estamos alguns anos no futuro.
+                As câmeras estão cada vez mais inteligentes, a inteligência
+                artificial consegue criar imagens realistas e novas tecnologias
+                estão transformando a maneira como registramos nossas memórias.
+            </p>
+
+            <p>
+                Mas será que a fotografia continuará sendo a mesma?
+                Suas escolhas irão construir uma história sobre o futuro da fotografia.
+            </p>
+
+            <button onclick="iniciar()">Começar</button>
+        </section>
+
+
+        <section id="perguntas" class="tela">
+
+            <div class="topo">
+                <span id="contador">Pergunta 1 de 10</span>
+
+                <div class="barra">
+                    <div id="progresso"></div>
+                </div>
+            </div>
+
+            <div class="icone">📷</div>
+
+            <h2 id="pergunta"></h2>
+
+            <div id="alternativas" class="alternativas"></div>
+
+        </section>
+
+
+        <section id="resultado" class="tela">
+
+            <div class="icone">✨</div>
+
+            <h1>Seu futuro fotográfico</h1>
+
+            <h2 id="tituloResultado"></h2>
+
+            <p id="textoResultado"></p>
+
+            <div class="resumo">
+                <h3>Suas escolhas</h3>
+                <ul id="listaEscolhas"></ul>
+            </div>
+
+            <button onclick="reiniciar()">Jogar novamente</button>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Projeto: O Futuro da Fotografia • JavaScript</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
